@@ -22,7 +22,7 @@ Here is [example](https://github.com/LitoMore/inquirer-chalk-pipe/blob/master/ex
 
 ## Related
 
-- [chalk-pipe](https://github.com/LitoMore/chalk-pipe) - Create chalk scheme with a style pipe
+- [chalk-pipe](https://github.com/LitoMore/chalk-pipe) - Create chalk style schemes with simpler style strings
 - [inquirer](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces
 
 ## License
