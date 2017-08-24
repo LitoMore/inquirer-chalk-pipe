@@ -1,6 +1,6 @@
 {
   "name": "inquirer-chalk-pipe",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "chalk-pipe style input for inquirer.js",
   "main": "index.js",
   "scripts": {
