@@ -1,0 +1,26 @@
+{
+  "name": "inquirer-chalk-pipe",
+  "version": "0.0.0",
+  "description": "chalk-pipe style input for inquirer.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LitoMore/inquirer-chalk-pipe.git"
+  },
+  "author": "LitoMore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LitoMore/inquirer-chalk-pipe/issues"
+  },
+  "homepage": "https://github.com/LitoMore/inquirer-chalk-pipe#readme",
+  "dependencies": {
+    "chalk-pipe": "^1.0.0",
+    "inquirer": "^3.2.2"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  }
+}
