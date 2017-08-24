@@ -18,12 +18,12 @@ inquirer.registerPrompt('chalk-pipe', require('inquirer-chalk-pipe'));
 
 ## Example
 
-
+Here is [example](https://github.com/LitoMore/inquirer-chalk-pipe/blob/master/example.js).
 
 ## Related
 
-- [inquirer](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces
 - [chalk-pipe](https://github.com/LitoMore/chalk-pipe) - Create chalk scheme with a style pipe
+- [inquirer](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces
 
 ## License
 
