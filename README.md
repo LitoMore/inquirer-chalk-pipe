@@ -2,7 +2,7 @@
 
 chalk-pipe style input for [inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 
-![](https://raw.githubusercontent.com/LitoMore/inquirer-chalk-pipe/master/screenshot.png)
+![](https://raw.githubusercontent.com/LitoMore/inquirer-chalk-pipe/master/screenshot.gif)
 
 ## Install
 
