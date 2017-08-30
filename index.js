@@ -57,7 +57,7 @@ Prompt.prototype.render = function (error) {
 	if (this.status === 'answered') {
 		message += chalkPipe(this.answer)(this.answer);
 	} else {
-		message += this.rl.line;
+		message += chalkPipe(this.rl.line)(this.rl.line);
 	}
 
 	if (error) {
