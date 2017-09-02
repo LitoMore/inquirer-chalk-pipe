@@ -1,5 +1,9 @@
 # inquirer-chalk-pipe
 
+[![](https://img.shields.io/npm/v/inquirer-chalk-pipe.svg)](https://www.npmjs.com/package/inquirer-chalk-pipe)
+[![](https://img.shields.io/npm/l/inquirer-chalk-pipe.svg)](https://github.com/LitoMore/inquirer-chalk-pipe/blob/master/LICENSE)
+[![](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+
 chalk-pipe style input for [inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 
 ![](https://raw.githubusercontent.com/LitoMore/inquirer-chalk-pipe/master/screenshot.gif)
