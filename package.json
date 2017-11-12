@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/LitoMore/inquirer-chalk-pipe#readme",
   "dependencies": {
-    "chalk-pipe": "^1.0.0",
-    "inquirer": "^3.2.3"
+    "chalk-pipe": "^1.1.0",
+    "inquirer": "^4.0.0"
   },
   "devDependencies": {
     "xo": "^0.18.2"
