@@ -43,4 +43,6 @@ const promptList = [
 	}
 ];
 
-inquirer.prompt(promptList).then();
+inquirer.prompt(promptList).then(res => {
+	console.log(res);
+});
