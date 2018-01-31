@@ -1,6 +1,7 @@
 'use strict';
 
 const inquirer = require('inquirer');
+const chalkPipe = require('chalk-pipe');
 
 inquirer.registerPrompt('chalk-pipe', require('.'));
 
@@ -32,11 +33,6 @@ const promptList = [
 		default: 'orange.bold'
 	}, {
 		type: 'chalk-pipe',
-		name: 'photo',
-		message: 'Photo color',
-		default: 'gray'
-	}, {
-		type: 'chalk-pipe',
 		name: 'timeago',
 		message: 'Timeago color',
 		default: 'dim.green.italic'
@@ -44,5 +40,27 @@ const promptList = [
 ];
 
 inquirer.prompt(promptList).then(res => {
-	console.log(res);
+	const {
+		text,
+		name,
+		at,
+		link,
+		tag,
+		timeago
+	} = res;
+
+	const textStyle = chalkPipe(text);
+	const nameStyle = chalkPipe(name);
+	const atStyle = chalkPipe(at);
+	const linkStyle = chalkPipe(link);
+	const tagStyle = chalkPipe(tag);
+	const timeagoStyle = chalkPipe(timeago);
+
+	console.log('');
+	console.log(textStyle('Hi Lito'));
+	console.log(nameStyle('LitoMore'));
+	console.log(atStyle('@LitoMore'));
+	console.log(linkStyle('https://github.com/LitoMore/chalk-pipe'));
+	console.log(tagStyle('#inquirer-chalk-pipe#'));
+	console.log(timeagoStyle('(just now)'));
 });
