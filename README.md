@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/npm/v/inquirer-chalk-pipe.svg)](https://www.npmjs.com/package/inquirer-chalk-pipe)
 [![](https://img.shields.io/npm/l/inquirer-chalk-pipe.svg)](https://github.com/LitoMore/inquirer-chalk-pipe/blob/master/LICENSE)
-[![](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 A inquirer plugin for input [chalk-pipe](https://github.com/LitoMore/chalk-pipe) style strings
 
