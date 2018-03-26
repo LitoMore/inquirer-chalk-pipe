@@ -20,6 +20,24 @@ $ npm install inquirer-chalk-pipe
 inquirer.registerPrompt('chalk-pipe', require('inquirer-chalk-pipe'));
 ```
 
+If you are using `inquirer@5.1.0` or later, you don't need to register this plugin, just use the [transformer](https://github.com/SBoudrias/Inquirer.js#question) option in input prompt:
+
+```javascript
+const inquirer = require('inquirer')
+const chalkPipe = require('chalk-pipe')
+
+inquirer.prompt([
+  {
+    type: 'input',
+    name: 'fav_color',
+    message: "What's your favorite color",
+    transformer: function(color) {
+      return chalkPipe(color)(color);
+    }
+  }
+])
+```
+
 ## Example
 
 Here is [example](https://github.com/LitoMore/inquirer-chalk-pipe/blob/master/example.js).
